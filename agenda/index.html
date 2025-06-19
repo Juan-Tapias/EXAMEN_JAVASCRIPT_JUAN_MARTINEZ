@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1 id="h1"></h1>
+    <section id="mandar-datos">
+        <div class="almacenamiento">
+            <div>
+                <h2>Crea tu actividad</h2>
+                <label>Titulo: </label><br>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label>Descripción: </label><br>
+                <input type="text" id="description">
+            </div>
+            <div>
+                <label>Ubicación: </label><br>
+                <input type="text" id="place" placeholder="ej: Casa de mi mamá">
+            </div>
+            <div>
+                <label>Dia: </label><br>
+                <input type="date" id="day" placeholder="ej: Casa de mi mamá">
+            </div>
+            <div>
+                <label>Hora inicio:</label><br>
+                <input type="time" id="hour-start">
+            </div>
+            <div>
+                <label>Hora final:</label><br>
+                <input type="time" id="hour-end">
+            </div>
+            <button id="agendar">Agendar</button>
+        </div>
+    </section>
+    <section id="agenda-datos">
+        <div id="datos">
+
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,66 @@
+body{
+text-align: center;
+}
+#mandar-datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.almacenamiento{
+    width: 30vw;
+    height: 30vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+}
+input{
+    all: unset;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px rgb(136, 136, 136);
+    background-color: rgb(223, 220, 253);
+    transition: border 0.1s ease-in;
+}
+input:focus{
+    border: 1px solid purple;
+}
+button{
+    all: unset;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px rgb(136, 136, 136);
+    width: 8vw;
+    height: 2vw;
+    text-align: center;
+}
+button:hover{
+    box-shadow: 0px 2px 3px 2px rgb(81, 53, 92);
+}
+.new{
+    margin-top: 2vw;
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+}
+#agenda-datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#datos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 65vw;
+    gap: 10px;
+}
